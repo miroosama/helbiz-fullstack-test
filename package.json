@@ -1,0 +1,30 @@
+{
+  "name": "helbiz-fullstack-test",
+  "version": "1.0.0",
+  "description": "helbiz tx sheet ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroosama/helbiz-fullstack-test.git"
+  },
+  "author": "Osama Miro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miroosama/helbiz-fullstack-test/issues"
+  },
+  "homepage": "https://github.com/miroosama/helbiz-fullstack-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
